@@ -3,6 +3,7 @@ import { setAlert } from './alert';
 
 import {
     GET_PROFILE,
+    UPDATE_PROFILE,
     PROFILE_ERROR
 } from './types';
 
