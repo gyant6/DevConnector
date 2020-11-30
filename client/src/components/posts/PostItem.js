@@ -23,7 +23,7 @@ const PostItem = ({
 }) => 
     <div class="post bg-white p-1 my-1">
         <div>
-            <Link to="/profile">
+            <Link to={`/profile/${user}`}>
                 <img
                     className="round-img"
                     src={avatar}
